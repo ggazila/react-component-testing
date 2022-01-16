@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test to match snapshot of component 1`] = `
+<div
+  className="container"
+>
+  <h1>
+    Subscribe To Their Newsletter
+  </h1>
+  <form
+    className="form"
+  >
+    <label
+      htmlFor="email"
+    >
+      Email Address
+    </label>
+    <input
+      id="email"
+      name="email"
+      onChange={[Function]}
+      placeholder="Email Address"
+      type="email"
+      value=""
+    />
+    <input
+      id="agreement_checkbox"
+      name="agreement_checkbox"
+      type="checkbox"
+    />
+    <label
+      htmlFor="agreement_checkbox"
+    >
+      I agree to disagree whatever the terms and conditions are.
+    </label>
+    <button
+      className="button"
+      disabled={true}
+      name="subscribe-button"
+      type="submit"
+    >
+      Subscribe
+    </button>
+  </form>
+</div>
+`;
